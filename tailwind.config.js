@@ -20,8 +20,8 @@ module.exports = {
           '75%': { transform: 'translateY(100px)'},
         },
         atasbawah: {
-          '0%, 100%': { transform: 'translateY(50px)' },
-          '50%': {transform: 'translateY(-50px)'},
+          '0%, 100%': { transform: 'translateY(0px)' },
+          '50%': {transform: 'translateY(-100px)'},
         },
       },
       animation: {
