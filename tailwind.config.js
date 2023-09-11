@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*.html"],
+  content:
+    [
+      "./*.html",
+      "./node_modules/flowbite/**/*.js"
+    ],
   theme: {
     fontFamily: {
       roboto : ['Roboto'],
@@ -27,10 +31,19 @@ module.exports = {
       animation: {
         movearound: 'movearound 5s ease-in-out infinite',
         atasbawah: 'atasbawah 5s ease-in-out infinite',
+      },
+      backdropBlur: {
+        soBlurry: '170px',
+      },
+      colors: {
+        Primer: '#3D3F3C',
+        Sekunder: '#FF6000',
+        Tersier: '#50524F',
       }
     },
   },
   plugins: [
     require("tailwindcss-animate"),
+    require('flowbite/plugin'),
   ],
 }

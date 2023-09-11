@@ -9,5 +9,8 @@
   "devDependencies": {
     "tailwindcss": "^3.2.4",
     "tailwindcss-animate": "^1.0.5"
+  },
+  "dependencies": {
+    "flowbite": "^1.8.1"
   }
 }
