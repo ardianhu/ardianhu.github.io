@@ -1228,16 +1228,16 @@ input:checked + .toggle-bg {
   height: 16rem;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .h-40 {
   height: 10rem;
 }
 
 .h-screen {
   height: 100vh;
-}
-
-.h-full {
-  height: 100%;
 }
 
 .h-96 {
@@ -1264,8 +1264,26 @@ input:checked + .toggle-bg {
   height: 1rem;
 }
 
+.h-20 {
+  height: 5rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
+}
+
+.min-h-full {
+  min-height: 100%;
+}
+
+.min-h-max {
+  min-height: -moz-max-content;
+  min-height: max-content;
+}
+
+.min-h-fit {
+  min-height: -moz-fit-content;
+  min-height: fit-content;
 }
 
 .w-64 {
@@ -1318,6 +1336,30 @@ input:checked + .toggle-bg {
 
 .max-w-screen-xl {
   max-width: 1280px;
+}
+
+.max-w-md {
+  max-width: 28rem;
+}
+
+.max-w-3xl {
+  max-width: 48rem;
+}
+
+.max-w-5xl {
+  max-width: 64rem;
+}
+
+.max-w-7xl {
+  max-width: 80rem;
+}
+
+.max-w-\[1500px\] {
+  max-width: 1500px;
+}
+
+.max-w-\[1920px\] {
+  max-width: 1920px;
 }
 
 .flex-1 {
@@ -1510,6 +1552,12 @@ input:checked + .toggle-bg {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
   margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-10 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(2.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .self-center {
@@ -2418,6 +2466,12 @@ input:checked + .toggle-bg {
 
   .lg\:items-start {
     align-items: flex-start;
+  }
+
+  .lg\:space-x-10 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(2.5rem * var(--tw-space-x-reverse));
+    margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .lg\:p-10 {
