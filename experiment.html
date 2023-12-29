@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ardianhu | Portofolio</title>
+    <link rel="stylesheet" href="/css/wind.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,100&family=Xanh+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      /*
+      * {
+        border: solid 1px red;
+      }
+      */
+    </style>
+  </head>
+  <body
+    class="bg-gradient-to-br from-sky-700 to-black bg-no-repeat font-roboto text-white min-h-screen"
+  >
+    <!-- Histats.com  (div with counter) -->
+    <!-- <div id="histats_counter"></div> -->
+    <!-- Histats.com  START  (aync)-->
+    <script type="text/javascript">
+      var _Hasync = _Hasync || [];
+      _Hasync.push(["Histats.start", "1,4788647,4,511,95,18,00000000"]);
+      _Hasync.push(["Histats.fasi", "1"]);
+      _Hasync.push(["Histats.track_hits", ""]);
+      (function () {
+        var hs = document.createElement("script");
+        hs.type = "text/javascript";
+        hs.async = true;
+        hs.src = "//s10.histats.com/js15_as.js";
+        (
+          document.getElementsByTagName("head")[0] ||
+          document.getElementsByTagName("body")[0]
+        ).appendChild(hs);
+      })();
+    </script>
+    <!-- <noscript
+      ><a href="/" target="_blank"
+        ><img
+          src="//sstatic1.histats.com/0.gif?4788647&101"
+          alt=""
+          border="0" /></a
+    ></noscript> -->
+    <!-- Histats.com  END  -->
+
+    <div
+      class="absolute bg-slate-400/40 backdrop-blur-lg h-24 w-24 rounded-full float-right right-40 bottom-44 animate-movearound"
+    ></div>
+    <div
+      id="lingkaran"
+      class="absolute lingkaran bg-slate-400/5 backdrop-blur-sm h-24 w-24 rounded-full left-14 z-10 top-80 animate-atasbawah shadow-black/70 shadow-lg"
+    ></div>
+    <div
+      class="m-6 md:mx-36 md:my-10 rounded-2xl backdrop-blur-lg [ p-8 md:p-10 lg:p-10 ] bg-slate-500/10[ border-[1px] border-solid border-white border-opacity-30 ] [ shadow-black/70 shadow-2xl ]"
+    >
+      <div class="flex justify-center space-x-5 md:space-x-10 font-light">
+        <h1>Experiment</h1>
+      </div>
+      <div
+        id="main"
+        class="animate-in fade-in-50 duration-1000"
+        style="display: block"
+      >
+        <div
+          class="flex flex-col-reverse md:flex-row justify-around items-center mb-20"
+        >
+          <div class="text-center md:text-start space-y-4">
+            <h3 class="text-md md:text-xl font-thin">Hei, I'm</h3>
+            <h1 class="font-Yeseva text-2xl md:text-5xl">
+              Moh. Ardian Hasanal Umam
+            </h1>
+            <h3 class="text-md md:text-xl font-thin">Junior Programmer</h3>
+          </div>
+          <div class="">
+            <span class="block relative w-64 h-64 lg:w-96 lg:h-96 my-24">
+              <img
+                alt="foto_profil"
+                src="img/color.JPG"
+                class="mx-auto object-cover rounded-full w-64 h-64 lg:h-96 lg:w-96 bg-white/30 border-8 border-white border-solid border-opacity-30"
+              />
+            </span>
+          </div>
+        </div>
+        <div>
+          <ul id="result_experiment"></ul>
+          <form id="form_experiment" action="#" class="max-w-sm mx-auto">
+            <div class="mb-5">
+              <!-- <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Name</label> -->
+              <input type="text" id="name" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Who you are" required>
+            </div>
+            <div class="mb-5">
+              <!-- <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Message</label> -->
+              <input type="text" id="message" id="message" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write the message here" required>
+            </div>
+            <button type="submit" onclick="submitForm()" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
+          </form>
+          
+        </div>
+      </div>
+    </div>
+    <!-- <script src="jvs.js"></script> -->
+    <script>
+      const experimentChannel = new BroadcastChannel("experiment_channel")
+
+      function submitForm() {
+        console.log("p")
+        var form = document.getElementById("form_experiment")
+        var messageInput = form.elements["message"]
+        var message = messageInput.value
+        var name = form.elements["name"].value
+        var resultContainer = document.getElementById("result_experiment")
+        var listItem = document.createElement("li")
+        listItem.textContent = name + ": " + message
+        resultContainer.appendChild(listItem)
+        messageInput.value = ""
+
+        experimentChannel.postMessage({name, message})
+        // form.reset()
+      }
+      experimentChannel.onmessage = (event) => {
+        // console.log(event.data) 
+        const { name, message } = event.data
+        var resultContainer = document.getElementById("result_experiment")
+        var listItem = document.createElement("li")
+        listItem.textContent = name + ": " + message
+        resultContainer.appendChild(listItem)
+      }
+    </script>
+  </body>
+</html>
