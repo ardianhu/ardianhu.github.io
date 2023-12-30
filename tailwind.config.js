@@ -10,6 +10,8 @@ module.exports = {
       roboto : ['Roboto'],
       newmono : ['"Xanh Mono"'],
       Yeseva:['"Yeseva One"'],
+      montserrat:['Montserrat'],
+      montserratThin: ["Montserrat Thin"]
 
     },
     extend: {
@@ -33,7 +35,7 @@ module.exports = {
         atasbawah: 'atasbawah 5s ease-in-out infinite',
       },
       backdropBlur: {
-        soBlurry: '170px',
+        soBlurry: '200px',
       },
       colors: {
         Primer: '#3D3F3C',
