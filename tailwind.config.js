@@ -10,9 +10,7 @@ module.exports = {
       roboto : ['Roboto'],
       newmono : ['"Xanh Mono"'],
       Yeseva:['"Yeseva One"'],
-      montserrat:['Montserrat'],
-      montserratThin: ["Montserrat Thin"]
-
+      montserrat:['Montserrat']
     },
     extend: {
       fontSize: {
